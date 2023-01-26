@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/feed-the-need/static/css/main.ccbf597a.css",
-    "main.js": "/feed-the-need/static/js/main.3c72d340.js",
+    "main.js": "/feed-the-need/static/js/main.fbeb3121.js",
     "static/js/787.8d0bbab4.chunk.js": "/feed-the-need/static/js/787.8d0bbab4.chunk.js",
     "static/media/logoI.png": "/feed-the-need/static/media/logoI.bd88e7054f5864939184.png",
     "static/media/orpDetPagePhone.jpg": "/feed-the-need/static/media/orpDetPagePhone.0a02a12ff99b4382e948.jpg",
@@ -12,11 +12,11 @@
     "static/media/login.webp": "/feed-the-need/static/media/login.4ed7df3a303c99050d13.webp",
     "index.html": "/feed-the-need/index.html",
     "main.ccbf597a.css.map": "/feed-the-need/static/css/main.ccbf597a.css.map",
-    "main.3c72d340.js.map": "/feed-the-need/static/js/main.3c72d340.js.map",
+    "main.fbeb3121.js.map": "/feed-the-need/static/js/main.fbeb3121.js.map",
     "787.8d0bbab4.chunk.js.map": "/feed-the-need/static/js/787.8d0bbab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccbf597a.css",
-    "static/js/main.3c72d340.js"
+    "static/js/main.fbeb3121.js"
   ]
 }
