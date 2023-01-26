@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/feed-the-need/static/css/main.ccbf597a.css",
+    "main.js": "/feed-the-need/static/js/main.3c72d340.js",
+    "static/js/787.8d0bbab4.chunk.js": "/feed-the-need/static/js/787.8d0bbab4.chunk.js",
+    "static/media/logoI.png": "/feed-the-need/static/media/logoI.bd88e7054f5864939184.png",
+    "static/media/orpDetPagePhone.jpg": "/feed-the-need/static/media/orpDetPagePhone.0a02a12ff99b4382e948.jpg",
+    "static/media/searchPageBg.jpg": "/feed-the-need/static/media/searchPageBg.918ab598f01064c99b57.jpg",
+    "static/media/donatePageBg.jpg": "/feed-the-need/static/media/donatePageBg.a92bca32e4f86198fae9.jpg",
+    "static/media/mainBackgroundImage.jpg": "/feed-the-need/static/media/mainBackgroundImage.70887787a4b4477b7919.jpg",
+    "static/media/orpDetailPage.jpg": "/feed-the-need/static/media/orpDetailPage.87bb42ed26b73ae61cc0.jpg",
+    "static/media/login.webp": "/feed-the-need/static/media/login.4ed7df3a303c99050d13.webp",
+    "index.html": "/feed-the-need/index.html",
+    "main.ccbf597a.css.map": "/feed-the-need/static/css/main.ccbf597a.css.map",
+    "main.3c72d340.js.map": "/feed-the-need/static/js/main.3c72d340.js.map",
+    "787.8d0bbab4.chunk.js.map": "/feed-the-need/static/js/787.8d0bbab4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccbf597a.css",
+    "static/js/main.3c72d340.js"
+  ]
+}
