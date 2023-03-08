@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Main from "./components/common/Main";
 import LoginOrphanage from "./components/orphanage/login/LoginOrphanage";
@@ -17,7 +17,7 @@ import OrphanageHistory from "./components/orphanage/OrphanageHistory";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route>
             <Route index element={<Main />} />
@@ -40,7 +40,7 @@ function App() {
             <Route path="/orphanagehistory" element={<OrphanageHistory />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
       {/* 
       <Main />
 
