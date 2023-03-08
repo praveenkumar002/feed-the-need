@@ -42,6 +42,12 @@ function DonateItem() {
     setCloAmt(cloCount * 300);
   }, [count, cloCount]);
 
+  const handleDonate = () => {
+    document.getElementById("donateClick").style.display = "block";
+    setInterval(() => {
+      document.getElementById("donateClick").style.display = "none";
+    }, 4000);
+  };
   return (
     <>
       <header className={styles.headerOd}>
@@ -57,7 +63,7 @@ function DonateItem() {
           </a>
           <a
             onClick={() => {
-              navigate("/orpdet");
+              navigate("/orpdet", { state: { item: location.state.item } });
             }}
             className={`${styles.headerListButOd} ${styles.headerListOd}`}
           >
@@ -203,7 +209,9 @@ function DonateItem() {
                 type="text"
               />
             </div>
-            <button className={styled.mainDivboxButtDi}>Donate</button>
+            <button onClick={handleDonate} className={styled.mainDivboxButtDi}>
+              Donate
+            </button>
           </div>
         </div>
 
@@ -234,12 +242,35 @@ function DonateItem() {
                 type="text"
               />
             </div>
-            <button className={styled.mainDivboxButtDi}>Donate</button>
+            <button className={styled.mainDivboxButtDi} onClick={handleDonate}>
+              Donate
+            </button>
           </div>
         </div>
       </main>
 
       <Footer />
+
+      <p
+        id="donateClick"
+        style={{
+          display: "none",
+          fontSize: "18px",
+          backgroundColor: "#2b8a3ee0",
+          fontFamily: "monospace",
+          color: "white",
+          padding: "8px 12px",
+          borderRadius: "12px",
+          position: "fixed",
+          letterSpacing: "1px",
+          top: "10px",
+          left: "10%",
+          right: "10%",
+          textAlign: "center",
+        }}
+      >
+        Donated successfully
+      </p>
     </>
   );
 }

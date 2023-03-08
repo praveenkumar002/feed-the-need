@@ -36,7 +36,7 @@ function OrphanageDetails() {
             <MapPin size={18} color="#a35bb8de" weight="fill" />
             &nbsp;City
           </a>
-          <a href="" onClick={() => navigate("/search")}>
+          <a onClick={() => navigate("/search")}>
             <MagnifyingGlass
               className={styles.headerListButOd}
               size={18}
