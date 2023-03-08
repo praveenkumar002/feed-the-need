@@ -75,7 +75,7 @@ function OrphanageRegister() {
 
       <p className={styles.signin}>
         Already user?
-        <a href="" onClick={()=>{navigate("/logorp")}}> sign in</a>
+        <a style={{color:"blue", textDecoration:"underline", cursor:"pointer"}} onClick={()=>{navigate("/logorp")}}> sign in</a>
       </p>
     </main>
   );

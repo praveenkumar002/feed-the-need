@@ -65,7 +65,7 @@ function RegisterUser() {
 
       <p className={styles.signin}>
         Already user?
-        <a href="http://localhost:3000/loguser"> sign in</a>
+        <a style={{color:"blue", textDecoration:"underline", cursor:"pointer"}} onClick={transLogin}> sign in</a>
       </p>
     </main>
   );

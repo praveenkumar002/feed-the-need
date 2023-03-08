@@ -40,7 +40,7 @@ function LoginOrphanage() {
           <p className={styles.newAcc}>
             create new account?{" "}
             <a
-              href=""
+              style={{color:"blue", textDecoration:"underline", cursor:"pointer"}}
               onClick={() => {
                 navigate("/regorp");
               }}

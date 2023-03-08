@@ -48,7 +48,7 @@ function LoginUser() {
             Login
           </button>
           <p className={styles.newAcc}>
-            create new account? <a href="" onClick={() => {navigate("/reguser")}}> sign up</a>
+            create new account? <a style={{color:"blue", textDecoration:"underline", cursor:"pointer"}} onClick={() => {navigate("/reguser")}}> sign up</a>
           </p>
         </form>
       </div>
