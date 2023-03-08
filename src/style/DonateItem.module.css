@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainDi {
+  min-height: 90vh;
+  max-height: 100%;
+  background-image: url("C:/Users/prave/Desktop/feed-the-need/src/images/donatePageBg.jpg");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease 0s;
+
+}
+
+.mainHeadDi {
+  font-weight: 600;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 52px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  margin-bottom: 24px;
+}
+
+.mainDivDi {
+  display: none;
+  gap: 42px;
+}
+.mainDivboxDi {
+  background-color: white;
+  padding: 32px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainDivboxHeadDi {
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Oswald", sans-serif;
+  color: #2f3337;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  margin-bottom: 14px;
+}
+.mainDivboxButtDi {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  width: 50%;
+  padding: 18px 0px;
+  background-color: #f37123;
+  border: none;
+  border-radius: 2px;
+}
+.mainDivboxButtDi:hover,
+.mainDivboxButtDi:active {
+  transform: none;
+  box-shadow: none;
+  background-color: #2f3337;
+  border: none;
+  border-radius: 2px;
+}
+
+/* --- */
+
+@media screen and (max-width: 600px) {
+  .mainDi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .mainHeadDi{
+    margin-top: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+    padding: 14px;
+    text-align: start;
+  }
+
+  .mainDivDi{
+    flex-direction: column;
+    padding: 12px;
+  }
+}

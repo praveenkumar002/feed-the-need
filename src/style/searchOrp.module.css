@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.divSo {
+  min-height: 100vh;
+  max-height: 100%;
+  background-image: url("C:/Users/prave/Desktop/feed-the-need/src/images/searchPageBg.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.asideSo {
+  background-color: rgba(255, 255, 255, 0.829);
+  padding: 20px 45px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.asideTitleSo {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+  margin-top: 25px;
+}
+.asideListSo {
+  margin-top: 25px;
+  list-style-type: none;
+  color: rgb(31, 30, 30);
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.asideListItemSo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.asideListButtSo {
+  background-color: white;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  border-radius: 8px;
+  border: 1px solid #272727;
+  color: #1f1f1f;
+  width: 80%;
+  margin-top: 8px;
+  padding: 5px 15px;
+}
+.asideListButtSo:hover {
+  background-color: rgb(233, 233, 233);
+  box-shadow: none;
+  transform: none;
+  transition: all 0.3s ease 0s;
+}
+.asideListDivSo {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+  margin-top: 25px;
+}
+/* ------------------------------------------------------------------------------------------------------ */
+
+.sectionSo {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  background-color: #f9f9f9dc;
+  margin: 44px 0px;
+  padding: 20px 45px;
+  border-radius: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sectionFormSo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.sectionCitySo[type="text"] {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 229);
+  border-radius: 5px;
+  padding: 0px 20px 0px 20px;
+  color: rgb(30, 30, 34);
+  font-family: "GT America";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  width: 640px;
+  height: 48px;
+}
+.history {
+  width: 640px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sectionCitySo[type="text"]:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0px 0px 0 rgba(34, 34, 34, 0.2),
+    0 4px 14px 0 rgba(34, 34, 34, 0.2);
+  transition: all 0.3s ease 0s;
+}
+.SectionButtSo {
+  background-color: #0a0a0b;
+  border: 1px solid #0a0a0b;
+  letter-spacing: 0.2px;
+  width: auto;
+  padding: 0px 24px 0px 24px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SectionButtSo:hover {
+  background-color: #3f3f3f;
+  border: 1px solid #3f3f3f;
+  box-shadow: none;
+  transition: all 0.3s ease 0s;
+}
+.SectionButtSo:active {
+  transform: none;
+}
+/* ----------------------- */
+.sectionFilterSo {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+}
+.sectionFilterSelSo {
+  outline: 0;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  height: 100%;
+  color: black;
+}
+/* ------------------------- */
+.sectionSearchDetSo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  overflow: scroll;
+  /* padding: 18px 8px;
+  gap: 18px; */
+}
+.sectionSearchDetSoHis{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  overflow: scroll;
+  padding: 18px 8px;
+  gap: 18px;
+}
+.sectionSearchDetSoHis::-webkit-scrollbar {
+  display: none;
+}
+.sectionSearchDetSo::-webkit-scrollbar {
+  display: none;
+}
+.sectionSearchDetSo:hover, .sectionSearchDetSoHis:hover {
+  background-color: #ddd;
+}
+
+.sectionSearchNamSo {
+  word-wrap: break-word;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+}
+.sectionSearchCitSo {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+}
+.sectionSearchItmSo {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+}
+.menuBut,
+.closeBut {
+  display: none;
+}
+
+/* --------------- */
+@media screen and (max-width: 600px) {
+  .divSo {
+    background-color: white;
+    background-image: none;
+  }
+  .menuBut {
+    display: block;
+    padding: 20px;
+    background-color: white;
+  }
+  .closeBut {
+    display: block;
+    align-self: flex-end;
+  }
+  .asideSo {
+    display: none;
+    background-color: white;
+    align-self: baseline;
+    margin: 0;
+    height: 100vh;
+  }
+  .imgSo {
+    display: block;
+    align-self: center;
+  }
+  .sectionSo {
+    align-self: baseline;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px 30px 20px;
+    background-color: white;
+  }
+  .sectionFormSo {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionCitySo[type="text"] {
+    width: 90%;
+  }
+  .sectionSearchDetSo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sectionSearchDetSo:hover {
+    background-color: #f2f2f2;
+  }
+  .SectionButtSo {
+    height: 38px;
+    padding: 0px 20px 0px 20px;
+  }
+}

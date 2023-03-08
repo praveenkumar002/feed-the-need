@@ -1,0 +1,144 @@
+.main {
+  background-image: linear-gradient(
+    to right,
+    #6955cb,
+    #8e53c7,
+    #a553c5,
+    #c050c1
+  );
+
+  height: auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #868e96;
+  color: #1d2024;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  color: #e9ecef;
+}
+.titleHead {
+  font-size: 38px;
+  letter-spacing: 0.4rem;
+}
+.titlePara {
+  margin-top: 3px;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+}
+.form {
+  width: 730px;
+  transition: 0.3s;
+  background-color: #f8f9fa;
+  padding: 2%;
+  padding-right: 8%;
+  border-radius: 8px;
+  box-shadow: 0 12px 14px 8px rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 22px 0;
+  gap: 4px;
+}
+
+.formLable {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+[type="password"],
+textarea {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-right: 8px;
+  padding: 6px;
+  padding-left: 12px;
+  display: inline-block;
+  border: none;
+  background: #e6e6e6;
+  border-radius: 25px;
+  color: #666;
+}
+input[type="text"]:hover,
+[type="number"]:hover,
+[type="email"]:hover,
+[type="password"]:hover,
+textarea:hover {
+  background-color: #dfdede;
+}
+.radio {
+  margin-right: 14px;
+  font-size: 18px;
+  font-weight: 500;
+}
+textarea:focus {
+  outline: none;
+}
+button {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px;
+  width: 32%;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.signin {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  color: #e9ecef;
+}
+
+textarea {
+  background-color: #ececec;
+  font-size: 18px;
+}
+
+/* --------------- */
+@media screen and (max-width: 600px) {
+  .titleHead {
+    font-size: 28px;
+    letter-spacing: 0.2rem;
+  }
+  .titlePara {
+    margin-top: 3px;
+    font-size: 18px;
+    letter-spacing: 0.01rem;
+  }
+
+  .form {
+    width: auto;
+  }
+  button {
+    align-self: center;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

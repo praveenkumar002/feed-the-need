@@ -1,0 +1,93 @@
+.main {
+    height: 100vh;
+    background-image: linear-gradient(to right, #6955CB, #8E53C7,#A553C5, #C050C1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    align-self: baseline;
+    transition: 1s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.mainContent {
+    background-color: white;
+    width: 730px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 177px 130px 33px 95px;
+}
+
+.titleHead {
+    font-size: 28px;
+    font-family: Poppins-Bold;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 54px;
+}
+
+.formDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.input[type="email"], .input[type="password"] {
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 30px 0 22px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.button {
+    margin-left: 48px;
+    border-radius: 25px;
+    width: 85%;
+    margin-bottom: 104px;
+}
+
+.newAcc {
+    text-align: center;
+    margin-left: 32px;
+    padding-bottom: 28px;
+}
+
+/* ----------- */
+
+@media screen and (max-width: 600px) {
+    img{
+        display: none;
+    }
+
+    .mainContent {
+        background-color: white;
+        height: 100vh;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    
+}
