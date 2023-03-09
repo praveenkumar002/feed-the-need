@@ -52,7 +52,7 @@ function OrphanageDetails() {
         <p className={styles.mainParaII}>Helping People</p>
         <p className={styles.mainParaIII}>Have More Smiles</p>
         <button onClick={donateItem} className={styles.mainParaBut}>
-          Dontae now
+          Donate now
         </button>
       </main>
 
