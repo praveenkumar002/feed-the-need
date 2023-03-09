@@ -150,7 +150,7 @@ function OrphanageHistory() {
           className={`${styles.sectionSo} ${styles.history}`}
         >
           <h1 style={{ alignSelf: "center", fontSize: "28px" }}>
-            Donataions from volunteers
+            Donations from volunteers
           </h1>
           {userDonation.length > 0 ? (
             userDonation.map((userDon) => (
